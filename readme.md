@@ -38,3 +38,4 @@ Will return an object with the event and any data associate with that event.
 `on('event-type')`: Attach an event (string)
 `off('event-type')`: Detaches an event that has been attached (string)
 `trigger('event-type', {})`: Triggers an event (string, data)
+
