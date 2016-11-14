@@ -2,6 +2,8 @@ Eventful
 ================
 A helper class for events.
 
+[![Build Status](https://travis-ci.org/DrewDahlman/eventful.svg?branch=master)](https://travis-ci.org/DrewDahlman/eventful)
+
 ## Use
 <pre>
 let Eventful = require('eventful');
