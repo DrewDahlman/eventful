@@ -29,7 +29,12 @@ With Eventful you can attach listeners to any object that you have access to and
 Will return an object with the event and any data associate with that event.
 <pre>
 {
-	event: 'some-event',
+	ev_type: 'some-event',
 	data: {}
 }
 </pre>
+
+## Methods
+`on('event-type')`: Attach an event (string)
+`off('event-type')`: Detaches an event that has been attached (string)
+`trigger('event-type', {})`: Triggers an event (string, data)
