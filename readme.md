@@ -41,3 +41,6 @@ Will return an object with the event and any data associate with that event.
 `off('event-type')`: Detaches an event that has been attached (string)
 `trigger('event-type', {})`: Triggers an event (string, data)
 
+## Tests
+To run tests `npm test`
+
